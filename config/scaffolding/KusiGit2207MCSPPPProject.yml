@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/Rajni25Aug
   gitUsername: Rajni25Aug
   gitBranch: main
+services:
+- serviceName: project.kusigit2207mcsppp.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsert
+  packages:
+  - name: KusiGit2207MCSPPPProject
+    version: "1.0"
+- serviceName: project.kusigit2207mcsppp.integrations:SIQAAdapterFlow
+  packages:
+  - name: KusiGit2207MCSPPPProject
+    version: "1.0"
