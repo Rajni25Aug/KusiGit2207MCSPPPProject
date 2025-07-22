@@ -56,6 +56,26 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2064
+- serviceName: project.kusigit2207mcsppp.integrations:deepclonetest
+  packages:
+  - name: KusiGit2207MCSPPPProject
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: pub.string:stringToBytes
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2064
+- serviceName: pub.utils:deepClone
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2064
+- serviceName: pub.string:bytesToString
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2064
 - serviceName: project.kusigit2207mcsppp.integrations:parentFS
   packages:
   - name: KusiGit2207MCSPPPProject
