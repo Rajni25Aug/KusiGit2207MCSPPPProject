@@ -16,3 +16,15 @@ services:
   packages:
   - name: KusiGit2207MCSPPPProject
     version: "1.0"
+- serviceName: project.kusigit2207mcsppp.integrations:childFS
+  packages:
+  - name: KusiGit2207MCSPPPProject
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2064
+- serviceName: project.kusigit2207mcsppp.integrations:parentFS
+  packages:
+  - name: KusiGit2207MCSPPPProject
+    version: "1.0"
